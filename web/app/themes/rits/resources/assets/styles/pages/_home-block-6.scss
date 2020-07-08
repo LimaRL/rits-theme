@@ -1,0 +1,112 @@
+.home-block {
+  &.home-block-6 {
+    height: 758px;
+    margin-bottom: 200px;
+
+    .color-block-bg {
+      top: 0;
+      left: unset;
+      right: 0;
+      height: 100%;
+      width: 50%;
+    }
+
+    .block-content {
+      position: relative;
+      height: 333px;
+      display: flex;
+      align-items: center;
+    }
+
+    .block-partners {
+      display: flex;
+      height: calc(758px - 333px);
+      justify-content: space-between;
+
+      .card {
+        position: relative;
+        width: calc(33.3333% - 15px);
+        height: calc(100% + 100px);
+        padding: 42px;
+        background-color: $white;
+        box-shadow: 0 30px 60px #00000026;
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: calc(100% - 84px);
+          height: 5px;
+        }
+
+        .card-content {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 100%;
+
+          h4 {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #e0e0e0;
+          }
+
+          .card-text {
+            margin-top: 50px;
+          }
+
+          img {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: auto;
+            height: 75px;
+            object-fit: contain;
+          }
+        }
+
+        &.red {
+          .card-content {
+            h4 {
+              color: $red;
+            }
+          }
+
+          &::after {
+            background-color: $red;
+          }
+        }
+
+        &.green {
+          .card-content {
+            h4 {
+              color: $green;
+            }
+          }
+
+          &::after {
+            background-color: $green;
+          }
+        }
+
+        &.blue {
+          .card-content {
+            h4 {
+              color: $blue;
+            }
+          }
+
+          &::after {
+            background-color: $blue;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,25 +1,24 @@
 @import "common/variables";
 
-/** Import everything from autoload */
-@import "./autoload/**/*";
-
-/**
- * Import npm dependencies
- *
- * Prefix your imports with `~` to grab from node_modules/
- * @see https://github.com/webpack-contrib/sass-loader#imports
- */
-// @import "~some-node-module";
-
 /** Import theme styles */
 @import "common/global";
+@import "common/grid";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
-@import "components/wp-classes";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
-@import "layouts/tinymce";
+
+/** Import pages styles */
+@import "pages/home";
+@import "pages/home-block-2";
+@import "pages/home-block-3";
+@import "pages/home-block-4";
+@import "pages/home-block-5";
+@import "pages/home-block-6";
+
+/** Import libraries */
+// @import "library/flickity";
