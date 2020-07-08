@@ -35,6 +35,10 @@
     &.color-block-bg-gray {
       background-color: $gray;
     }
+
+    &.color-block-bg-black {
+      background-color: $black-light;
+    }
   }
 
   .image-block-bg {
@@ -97,6 +101,12 @@
 
     .image-block-bg {
       height: 620px;
+
+      .poligono {
+        position: absolute;
+        bottom: -35px;
+        right: 18%;
+      }
     }
   }
 }

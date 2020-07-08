@@ -13,4 +13,5 @@
   @include('partials.home-block-4')
   @include('partials.home-block-5')
   @include('partials.home-block-6')
+  @include('partials.home-block-7')
 @endsection

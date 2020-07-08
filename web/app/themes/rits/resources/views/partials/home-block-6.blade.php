@@ -4,20 +4,20 @@
     <div class="row">
       <div class="col-6">
         <div class="block-content">
-          <h2>Maecenas faucibus<br> elementum</h2>
+          {!! $info_block_6->text !!}
         </div>
       </div>
       <div class="col-6">
         <div class="block-content">
-          imagem
+          <div class="poligono"><img class="icon" src="@asset('images/poligono-gray.svg')"></div>
+          <div class="block-content-image" style="background-image: url({{ $info_block_6->image['url'] }})"></div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         <div class="block-partners">
-          <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-            @php $posts = $info_block_6->partners; @endphp
+          @php $posts = $info_block_6->partners; @endphp
             @if($posts)
             @foreach($posts as $post)
               <div class="card {{ $post->color }}">
@@ -29,7 +29,6 @@
               </div>
               @endforeach
             @endif
-          </div>
         </div>
       </div>
     </div>

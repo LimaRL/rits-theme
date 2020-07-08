@@ -2,7 +2,9 @@
 <section class="home-block home-block-1">
 
   @if ( $info_block_1['image'] )
-  <figure class="image-block-bg image-block-bg-right" style="background-image: url({{ $info_block_1['image']['url'] }})"></figure>
+  <figure class="image-block-bg image-block-bg-right" style="background-image: url({{ $info_block_1['image']['url'] }})">
+    <div class="poligono"><img class="icon" src="@asset('images/poligono-green.svg')"></div>
+  </figure>
   @endif
 
   <div class="container">

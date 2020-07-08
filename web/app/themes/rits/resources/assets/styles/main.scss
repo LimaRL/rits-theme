@@ -3,9 +3,14 @@
 /** Import theme styles */
 @import "common/global";
 @import "common/grid";
+@import "common/efects";
+
+/** Import components */
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
+
+/** Import layouts */
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
@@ -19,6 +24,6 @@
 @import "pages/home-block-4";
 @import "pages/home-block-5";
 @import "pages/home-block-6";
+@import "pages/home-block-7";
 
 /** Import libraries */
-// @import "library/flickity";
