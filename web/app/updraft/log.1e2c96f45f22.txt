@@ -1,0 +1,31 @@
+0000.688 (0) Opened log file at time: Wed, 08 Jul 2020 14:05:40 +0000 on http://rits.test/wp
+0000.875 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.4.7 (fpm-fcgi, Linux rits 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020 x86_64) MySQL: 10.2.32-MariaDB-1:10.2.32+maria~bionic WPLANG: en_US Server: nginx/1.17.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34M | 4.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.879 (0) Free space on disk containing Updraft's temporary directory: 318343.6 MB
+0000.965 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.973 (0) Semaphore (fd, wp_options) being initialised
+0000.990 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0001.001 (0) Set semaphore last lock (fd) time to 2020-07-08 14:05:40
+0001.005 (0) Semaphore lock (fd) complete
+0001.026 (0) Backup run: resumption=0, nonce=1e2c96f45f22, file_nonce=1e2c96f45f22 begun at=1594217139 (1s ago), job type=backup
+0001.043 (0) Scheduling a resumption (1) after 300 seconds (1594217440) in case this run gets aborted
+0001.068 (0) Checking if we have a zip executable available
+0001.074 (0) Creation of backups of directories: beginning
+0001.263 (0) Beginning creation of dump of plugins (split every: 100 MB)
+0002.889 (0) Total entities for the zip file: 256 directories, 1703 files (0 skipped as non-modified), 33.4 MB
+0003.651 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (2) files added so far); re-opening (prior size: 0 KB)
+0060.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 17 (19) files added so far); re-opening (prior size: 51.6 KB)
+0067.392 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 15 (34) files added so far); re-opening (prior size: 248.3 KB)
+0075.393 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 16 (50) files added so far); re-opening (prior size: 412.2 KB)
+0080.722 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 22 (72) files added so far); re-opening (prior size: 472.1 KB)
+0089.624 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 27 (99) files added so far); re-opening (prior size: 498.7 KB)
+0097.956 (0) Zip: backup_2020-07-08-1405_ritstest_1e2c96f45f22-plugins.zip.tmp: 100 files added (on-disk size: 517.2 KB)
+0100.475 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 20 (119) files added so far); re-opening (prior size: 517.2 KB)
+0107.792 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 20 (139) files added so far); re-opening (prior size: 554.2 KB)
+0119.548 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 8 (147) files added so far); re-opening (prior size: 653 KB)
+0126.397 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 25 (172) files added so far); re-opening (prior size: 758.1 KB)
+0134.454 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 26 (198) files added so far); re-opening (prior size: 856.2 KB)
+0140.289 (0) Zip: backup_2020-07-08-1405_ritstest_1e2c96f45f22-plugins.zip.tmp: 200 files added (on-disk size: 1024.8 KB)
+0142.465 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 11 (209) files added so far); re-opening (prior size: 1024.8 KB)
+0149.526 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 20 (229) files added so far); re-opening (prior size: 1062.9 KB)
+0162.410 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 27 (256) files added so far); re-opening (prior size: 1114.4 KB)
+0171.412 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 35 (291) files added so far); re-opening (prior size: 1257.4 KB)
